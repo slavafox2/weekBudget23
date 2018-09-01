@@ -45,7 +45,7 @@ class HTML {
     };
     trackBudget(amount){
         const budgetLeftDollars = budget.substrackFromBudget(amount);
-        budget.innerHTML = `${budgetLeftDollars}`;
+        budgetLeft.innerHTML = `${budgetLeftDollars}`;
 
         //check when 25% is left
         if ((budget.budget / 4) > budgetLeftDollars) {
